@@ -1,6 +1,6 @@
 Exercise 1.
 ```
-
+cd ~
 ls -l
 ```
 Exercise 2
