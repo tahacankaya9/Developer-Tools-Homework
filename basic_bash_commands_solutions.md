@@ -1,7 +1,7 @@
 Exercise 1.
 ```
 
-ls -la
+ls -l
 ```
 Exercise 2
 ```
