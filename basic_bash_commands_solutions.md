@@ -17,7 +17,7 @@ nano Taha.txt
 Exercise 4
 ```
 
-echo "Cankaya" > cankaya.txt
+echo "Cankaya" > Cankaya.txt
 ```
 Exercise 5
 ```
