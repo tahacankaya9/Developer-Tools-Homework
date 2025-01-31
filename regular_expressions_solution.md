@@ -6,50 +6,62 @@ ls -d ~/[A-Z]*
 
 **Exercise 2**.
 ```bash
-place the command(s) here
+ls -d ~/.[^.]*  
+
 ```
 
 **Exercise 3**.
 ```bash
-place the command(s) here
+ls -d ~/.[^.]* | wc -l
+
 ```
 
 **Exercise 4**.
 ```bash
-place the command(s) here
+**ls -d ~/[A-Za-z]*
+**
 ```
 
 **Exercise 5**.
 ```bash
-place the command(s) here
+ls -d ~/[^A-Z]*
+
 ```
 
 **Exercise 6**.
 ```bash
-place the command(s) here
+ls -d ~/!*.[!?.]?.?  # Avoids files with exactly three-letter extensions
+
 ```
 
 **Exercise 7**.
 ```bash
-place the command(s) here
+ls -d /etc/c*y
+
 ```
 
 **Exercise 8**.
 ```bash
-place the command(s) here
+ls /etc | grep 'ss'
+
 ```
 
 **Exercise 9**.
 ```bash
-place the command(s) here
+ls | grep -E '^.{1}[A-Z].{1}[A-Z].{1}e$'
+
 ```
 
 **Exercise 10**.
 ```bash
-place the command(s) here
+ls -d ~/[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9]
+
 ```
 
 **Exercise 11**.
 ```bash
-place the command(s) here
+ls -d /var/log/*.log
+
 ```
+
+
