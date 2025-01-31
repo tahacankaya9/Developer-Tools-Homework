@@ -30,7 +30,7 @@ ls -d ~/[^A-Z]*
 
 **Exercise 6**.
 ```bash
-ls -d ~/!*.[!?.]?.?  # Avoids files with exactly three-letter extensions
+ls -d ~/!*.[!?.]?.?  
 
 ```
 
